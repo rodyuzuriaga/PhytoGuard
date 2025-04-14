@@ -1728,6 +1728,7 @@ export default function Home() {
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-green-50 to-green-100 dark:from-green-950 dark:to-green-900">
+      <link rel="icon" href="/favicon.svg" type="image/svg+xml"></link>
       {/* Header */}
       <header className="sticky top-0 z-50 w-full border-b border-green-200 dark:border-green-800 bg-white/80 dark:bg-gray-900/80 backdrop-blur-sm">
         <div className="container flex h-16 items-center justify-between">
