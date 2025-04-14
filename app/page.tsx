@@ -60,7 +60,7 @@ export default function Home() {
   const [isMobile, setIsMobile] = useState(false)
   const [activeTab, setActiveTab] = useState("inicio")
 
-  // Mock weather data
+  // Mock weather data real time
   const weatherInfo: WeatherInfo = {
     location: "Valle Central, Región Agrícola",
     temperature: 24,
